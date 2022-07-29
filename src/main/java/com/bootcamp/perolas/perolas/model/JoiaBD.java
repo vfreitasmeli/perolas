@@ -12,14 +12,14 @@ public class JoiaBD {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    long numero_id;
+    private long numero_id;
 
     @Column(length = 50, nullable = false)
-    String material;
+    private String material;
 
     @Column(nullable = false)
-    double peso;
+    private double peso;
 
     @Column(nullable = false)
-    int quilates;
+    private int quilates;
 }

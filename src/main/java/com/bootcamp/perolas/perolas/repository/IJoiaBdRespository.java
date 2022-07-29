@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface IJoiaBdRespository extends JpaRepository<JoiaBD, Long> {
+    JoiaBD findByMaterial(String material);
 }
